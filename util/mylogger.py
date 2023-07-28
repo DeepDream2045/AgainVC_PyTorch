@@ -26,7 +26,6 @@ class BaseWriter():
         self.log = BaseWriter.dummy
         self.mels_summary = BaseWriter.dummy
     
-    
 
 import wandb
 class WandbWriter(BaseWriter):

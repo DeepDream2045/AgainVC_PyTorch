@@ -93,3 +93,4 @@ class Trainer(BaseAgent):
                 sample_rate=22050,
                 step=self.model_state['steps']
             )
+            

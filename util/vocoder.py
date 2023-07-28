@@ -25,4 +25,3 @@ class VocoderWrapper():
 
 def get_vocoder(device):
     return VocoderWrapper(device=device)
-

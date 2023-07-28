@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from util.mytorch import np2pt
 
+
 def build_model(build_config, device, mode):
     model = Model(**build_config.model.params).to(device)
     if mode == 'train':

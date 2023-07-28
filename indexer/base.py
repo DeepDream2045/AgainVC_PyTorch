@@ -5,6 +5,7 @@ from  glob import glob
 
 logger = logging.getLogger(__file__)
 
+
 class BaseIndexer():
     def __init__(self):
         pass

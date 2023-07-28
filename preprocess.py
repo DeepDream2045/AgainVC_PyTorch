@@ -42,12 +42,3 @@ if __name__ == '__main__':
     for feat in config.feat_to_preprocess:
         preprocessor.preprocess(input_path=config.input_path, output_path=config.output_path, feat=feat, njobs=args.njobs)
     
-    # # For debugging, only use one file.
-    # input_path = config.input_path
-    # output_path = config.output_path
-    # feat = 's3prl_mockingjay'
-    # fin = os.path.join(input_path, 'p317/p317_424.wav')
-    # fout = os.path.join(output_path, feat)
-    # print(fin, fout)
-    # process_one(fin, processor.dsp_modules[feat], fout)
-    

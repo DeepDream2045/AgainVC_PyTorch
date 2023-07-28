@@ -54,3 +54,4 @@ if __name__ == '__main__':
 
     # inference
     inferencer.inference(source_path=args.source, target_path=args.target, out_path=args.output, seglen=args.seglen)
+

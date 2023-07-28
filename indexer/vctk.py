@@ -1,6 +1,7 @@
 import os
 from .base import BaseIndexer
 
+
 class Indexer(BaseIndexer):
     def __init__(self):
         super().__init__()

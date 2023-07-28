@@ -2,6 +2,7 @@ import os
 from glob import glob
 from .base import BasePreproceccor
 
+
 class Preprocessor(BasePreproceccor):
     def __init__(self, config):
         super().__init__(config)

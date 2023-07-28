@@ -69,3 +69,4 @@ def load_checkpoint(ckpt_dir_or_file, map_location=None, load_best=False):
     ckpt = torch.load(ckpt_path, map_location=map_location)
     logger.info(' [*] Loading checkpoint from %s succeed!' % ckpt_path)
     return ckpt
+

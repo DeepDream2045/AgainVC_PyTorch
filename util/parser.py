@@ -3,7 +3,6 @@ import re as _re
 from gettext import gettext as _
 
 
-
 SUPPRESS = '==SUPPRESS=='
 OPTIONAL = '?'
 ZERO_OR_MORE = '*'

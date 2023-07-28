@@ -131,3 +131,4 @@ class Inferencer(BaseAgent):
                     Dsp.plot_spectrogram(source['mel'], source_plt)
                     np.save(os.path.join(out_path, 'mel', f'{source_basename}.npy'), source['mel'])
         logger.info(f'The generated files are saved to {out_path}.')
+        
